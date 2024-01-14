@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.calculator{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+    justify-content: center;
+    align-items: center;
+    height: 310px;
+    width: 320px;
+    gap: 5px;
+    background-color: grey;
+    
+}
+.r1,.r2,.r3,.r4,.clear_delete,.display_screen{
+    display: flex;
+    flex: 1;
+    gap: 5px;
+    width: 300px;
+
+}
+.one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.zero,
+.equal,.plus,.dot,.sub,.divide,.subtract,.times,.clear,.delete{
+    flex:1;
+    
+}
+.display_screen{
+    border: 1px solid black;
+    margin-top: 5px;
+    background-color: white;
+    font-size: 40px;
+    font-weight:bold;
+    display: flex;
+    flex-wrap: wrap;
+}
+.r4{
+    margin-bottom: 5px;
+}
+.display{
+    flex:1;
+    text-align: right;
+}

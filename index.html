@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src = "script.js" defer></script>
+</head>
+<body>
+    <div class = "calculator">
+        <div class = "display_screen">
+            <span class = "display">0</span>
+        </div>
+        <div class = "clear_delete">
+            <button onclick = "c()" class = "clear"> CLEAR</button>
+            <button class = "delete"> DELETE</button>
+        </div>
+        <div class = "r1">
+            <button onclick = "displayNumber(7)" class = "seven">7</button>
+            <button onclick = 'displayNumber(8)' class = "eight">8</button>
+            <button onclick = 'displayNumber(9)' class = "nine">9</button>
+            <button onclick = "divivde()" class = "divide">/</button>
+        </div>
+        <div class = "r2">
+            <button onclick = 'displayNumber(4)' class = "four">4</button>
+            <button onclick = 'displayNumber(5)' class = "five">5</button>
+            <button onclick = 'displayNumber(6)' class = "six">6</button>
+            <button onclick = "multiply()" class = "times">x</button>
+            
+        </div>
+        <div class = "r3">
+            <button onclick = 'displayNumber(1)' class = "one">1</button>
+            <button onclick = 'displayNumber(2)' class = "two">2</button>
+            <button onclick = 'displayNumber(3)' class = "three">3</button>
+            <button onclick = "subtract()" class = "sub">-</button>
+            
+        </div>
+        <div class = "r4">
+            <button class = "dot">.</button>
+            <button onclick = 'displayNumber(0)' class = "zero">0</button>
+            <button onclick = 'equal()' class = "equal">=</button>
+            <button onclick = "add()" class = "plus">+</button>
+            
+        </div>
+    </div>
+</body>
+</html>
